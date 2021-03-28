@@ -33,3 +33,7 @@
 /snapd/
 /.oh-my-zsh/
 *.json
+/.config/dconf/user
+/.zsh_history
+/id_ed25519
+/id_ed25519.pub
