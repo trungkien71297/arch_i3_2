@@ -1,0 +1,20 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+DVI-D-0 HDMI-0 Height 1920x1080=1037
+DVI-D-0 HDMI-0 Height 1920x1200=1157
+DVI-D-0 HDMI-0 Width 1920x1080=1908
+DVI-D-0 HDMI-0 Width 1920x1200=1908
+DVI-D-0 HDMI-0 XPosition 1920x1080=2883
+DVI-D-0 HDMI-0 XPosition 1920x1200=6
+DVI-D-0 HDMI-0 YPosition 1920x1080=157
+DVI-D-0 HDMI-0 YPosition 1920x1200=37
+State=AAAA/wAAAAD9AAAAAAAAB3QAAARIAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=/run/media/peemoti/A/neo4j/Neo4j_Graph_Algorithms_r3.pdf
+File2[$e]=/run/media/peemoti/A/neo4j/Graph Data Science For Dummies Book.pdf
+Name1[$e]=Neo4j_Graph_Algorithms_r3.pdf
+Name2[$e]=Graph Data Science For Dummies Book.pdf

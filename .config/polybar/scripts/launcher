@@ -1,0 +1,5 @@
+#!/bin/bash
+
+## Created By Aditya Shakya
+
+rofi -modi run,drun -show drun -location 1 -location 1 -xoffset 200 -yoffset 40 -line-padding 4 -columns 1 -width 17 -lines 10 -padding 25 -hide-scrollbar -show-icons
