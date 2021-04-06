@@ -37,3 +37,11 @@
 /.zsh_history
 /id_ed25519
 /id_ed25519.pub
+/.swt/
+/protobuf-3.15.7/
+/protoc/
+/.config/coc/
+/.config/ibus/bus/c1727d3b6acc48ca9dd1c5488dd70746-unix-0
+/.config/pulse/c1727d3b6acc48ca9dd1c5488dd70746-device-volumes.tdb
+/.config/pulse/c1727d3b6acc48ca9dd1c5488dd70746-stream-volumes.tdb
+/.zcompdump-peemoti-5.8

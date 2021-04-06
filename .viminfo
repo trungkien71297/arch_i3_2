@@ -17,14 +17,46 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1616902017,,"wq"
-:q!
-|2,0,1616824535,,"q!"
+:PluginInstall
+|2,0,1617718008,,"PluginInstall"
 :q
-|2,0,1616824533,,"q"
+|2,0,1617718060,,"q"
+:Q
+|2,0,1617718035,,"Q"
+:wq
+|2,0,1617717992,,"wq"
+:qa
+|2,0,1617717709,,"qa"
+:qa\
+|2,0,1617717707,,"qa\\"
 :w
-|2,0,1616824524,,"w"
+|2,0,1617716210,,"w"
+:q!
+|2,0,1617714795,,"q!"
+:CocConfig
+|2,0,1617714680,,"CocConfig"
+:CocInstall coc-go
+|2,0,1617714604,,"CocInstall coc-go"
+:CocInstall coc-json coc-tsserver
+|2,0,1617714584,,"CocInstall coc-json coc-tsserver"
+:verbose setlocal omnifunc?
+|2,0,1617714213,,"verbose setlocal omnifunc?"
+:verbose serlocal omnifunc?
+|2,0,1617714197,,"verbose serlocal omnifunc?"
+:verbose setlocal omnmifunc?
+|2,0,1617714184,,"verbose setlocal omnmifunc?"
+:Wq
+|2,0,1617714025,,"Wq"
+:Qa
+|2,0,1617506561,,"Qa"
+:GoImports
+|2,0,1617506491,,"GoImports"
+:GoImport
+|2,0,1617505853,,"GoImport"
+:GoInstallBinaries
+|2,0,1617453793,,"GoInstallBinaries"
+:q~
+|2,0,1617453218,,"q~"
 :bn
 |2,0,1615464987,,"bn"
 :bp
@@ -37,14 +69,8 @@ $
 |2,0,1615383571,,"Tabnine"
 :Tabnine -h
 |2,0,1615383565,,"Tabnine -h"
-:qa
-|2,0,1615383693,,"qa"
-:PluginInstall
-|2,0,1615383690,,"PluginInstall"
 :w deadd_open_center.sh
 |2,0,1615293551,,"w deadd_open_center.sh"
-:Q
-|2,0,1615215715,,"Q"
 :help airline-customization
 |2,0,1615215595,,"help airline-customization"
 :wqa
@@ -85,24 +111,12 @@ $
 |2,0,1615119393,,"AirlineTheme luna"
 :AirlineTheme solarized
 |2,0,1615119330,,"AirlineTheme solarized"
-:Qa
-|2,0,1615119060,,"Qa"
 :RainbowLoad
 |2,0,1615118383,,"RainbowLoad"
 :help ale-options
 |2,0,1615118038,,"help ale-options"
 :map
 |2,0,1615116201,,"map"
-:help man
-|2,0,1615116109,,"help man"
-:set number
-|2,0,1615115209,,"set number"
-:source
-|2,0,1615113971,,"source"
-:source %\
-|2,0,1615113966,,"source %\\"
-:W
-|2,0,1615062576,,"W"
 
 # Search String History (newest to oldest):
 ?/wm-restack
@@ -152,264 +166,600 @@ $
 
 # Registers:
 "0	LINE	0
-	exec --no-startup-id dunst &
-|3,0,0,1,1,0,1616824732,"exec --no-startup-id dunst &"
-""1	LINE	0
-	export PATH="$PATH:/home/peemoti/gitkraken/gitkraken"
-|3,1,1,1,1,0,1616902016,"export PATH=\"$PATH:/home/peemoti/gitkraken/gitkraken\""
+		"github.com/simplesteph/"
+|3,0,0,1,1,0,1617714604,"	\"github.com/simplesteph/\""
+"1	CHAR	0
+	t
+	}
+|3,0,1,0,2,0,1617715027,"t","}"
 "2	LINE	0
-	exec --no-startup-id ibus-daemon &
-|3,0,2,1,1,0,1616824839,"exec --no-startup-id ibus-daemon &"
+	
+|3,0,2,1,1,0,1617714604,""
 "3	LINE	0
-	#To learn more about semantic completion, see https://tabnine.com/semantic.
-|3,0,3,1,1,0,1615382648,"#To learn more about semantic completion, see https://tabnine.com/semantic."
+	
+|3,0,3,1,1,0,1617714584,""
 "4	LINE	0
-	icon_path = /usr/share/icons/Paper/16x16/mimetypes/:/usr/share/icons/Paper/48x48/status/:/usr/share/icons/Paper/16x16/devices/:/usr/share/icons/Paper/48x48/notifications/:/usr/share/icons/Paper/48x48/emblems/
-|3,0,4,1,1,0,1615296913,"icon_path = /usr/share/icons/Paper/16x16/mimetypes/:/usr/share/icons/Paper/48x48/status/:/usr/share/icons/Paper/16x16/devices/:/usr/share/icons/Paper/48x48/notifications/:/usr/share/icons/Paper/48x48/emblems/"
+		"github.com/simplesteph/"
+|3,0,4,1,1,0,1617506637,"	\"github.com/simplesteph/\""
 "5	LINE	0
-	16x16
-|3,0,5,1,1,0,1615296860,"16x16"
+	-end config---------     
+|3,0,5,1,1,0,1617506058,"-end config---------     "
 "6	LINE	0
-	neofetch
-|3,0,6,1,1,0,1615233258,"neofetch"
+	
+|3,0,6,1,1,0,1617195638,""
 "7	LINE	0
-	neofetch
-|3,0,7,1,1,0,1615233258,"neofetch"
+	export PATH="$PATH:/home/peemoti/gitkraken/gitkraken"
+|3,0,7,1,1,0,1616902016,"export PATH=\"$PATH:/home/peemoti/gitkraken/gitkraken\""
 "8	LINE	0
-	neofetch
-|3,0,8,1,1,0,1615233258,"neofetch"
+	exec --no-startup-id ibus-daemon &
+|3,0,8,1,1,0,1616824839,"exec --no-startup-id ibus-daemon &"
 "9	LINE	0
-	neofetch
-|3,0,9,1,1,0,1615233258,"neofetch"
-"-	CHAR	0
-	/
-|3,0,36,0,1,0,1616901882,"/"
+	#To learn more about semantic completion, see https://tabnine.com/semantic.
+|3,0,9,1,1,0,1615382648,"#To learn more about semantic completion, see https://tabnine.com/semantic."
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1617717986," "
+
+# global variables:
 
 # File marks:
-'0  114  0  ~/.config/i3/config
-|4,48,114,0,1616902679,"~/.config/i3/config"
-'1  4  0  ~/NERD_tree_1
-|4,49,4,0,1616902017,"~/NERD_tree_1"
-'2  3  0  ~/NERD_tree_1
-|4,50,3,0,1616901915,"~/NERD_tree_1"
-'3  4  0  ~/NERD_tree_1
-|4,51,4,0,1616901915,"~/NERD_tree_1"
-'4  2  0  ~/NERD_tree_1
-|4,52,2,0,1616901887,"~/NERD_tree_1"
-'5  3  0  ~/NERD_tree_1
-|4,53,3,0,1616901887,"~/NERD_tree_1"
+'0  20  0  ~/[Vundle] Installer
+|4,48,20,0,1617718062,"~/[Vundle] Installer"
+'1  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1
+|4,49,4,0,1617718060,"~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1"
+'2  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,50,4,0,1617718036,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+'3  3  0  ~/NERD_tree_1
+|4,51,3,0,1617718001,"~/NERD_tree_1"
+'4  4  0  ~/NERD_tree_1
+|4,52,4,0,1617718001,"~/NERD_tree_1"
+'5  2  0  ~/NERD_tree_1
+|4,53,2,0,1617717992,"~/NERD_tree_1"
 '6  3  0  ~/NERD_tree_1
-|4,54,3,0,1616901887,"~/NERD_tree_1"
-'7  4  0  ~/NERD_tree_1
-|4,55,4,0,1616901887,"~/NERD_tree_1"
-'8  1  0  ~/NERD_tree_1
-|4,56,1,0,1616901839,"~/NERD_tree_1"
-'9  2  0  ~/NERD_tree_1
-|4,57,2,0,1616901839,"~/NERD_tree_1"
+|4,54,3,0,1617717992,"~/NERD_tree_1"
+'7  3  0  ~/NERD_tree_1
+|4,55,3,0,1617717992,"~/NERD_tree_1"
+'8  4  0  ~/NERD_tree_1
+|4,56,4,0,1617717992,"~/NERD_tree_1"
+'9  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,57,4,0,1617717957,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
 
 # Jumplist (newest first):
--'  114  0  ~/.config/i3/config
-|4,39,114,0,1616902679,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1616902447,"~/.config/i3/config"
+-'  20  0  ~/[Vundle] Installer
+|4,39,20,0,1617718062,"~/[Vundle] Installer"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1
+|4,39,4,0,1617718060,"~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1"
+-'  5  2  ~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1
+|4,39,5,2,1617718059,"~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1
+|4,39,1,0,1617718059,"~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,4,0,1617718036,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,7,2,1617718035,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,1,0,1617718035,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1617718008,"~/.vimrc"
+-'  3  0  ~/NERD_tree_1
+|4,39,3,0,1617718001,"~/NERD_tree_1"
 -'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616902017,"~/NERD_tree_1"
+|4,39,4,0,1617718001,"~/NERD_tree_1"
+-'  25  2  ~/NERD_tree_1
+|4,39,25,2,1617717999,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1617717999,"~/NERD_tree_1"
+-'  26  2  ~/NERD_tree_1
+|4,39,26,2,1617717999,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1617717999,"~/NERD_tree_1"
 -'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616902017,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616902013,"~/NERD_tree_1"
+|4,39,4,0,1617717992,"~/NERD_tree_1"
+-'  26  2  ~/NERD_tree_1
+|4,39,26,2,1617717962,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616902013,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616902013,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616902013,"~/NERD_tree_1"
+|4,39,1,0,1617717962,"~/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,4,0,1617717957,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,4,0,1617717957,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,7,2,1617717838,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,1,0,1617717838,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,7,2,1617717838,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+|4,39,1,0,1617717838,"~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1"
+-'  45  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,45,0,1617717709,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  45  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,45,0,1617717709,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,1,0,1617717431,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,1,0,1617717431,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  7  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,7,0,1617717423,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  7  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,7,0,1617717423,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  7  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,7,0,1617717423,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  7  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,7,0,1617717423,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  8  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,8,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  8  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,8,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  8  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,8,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  8  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,8,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716457,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,4,0,1617716305,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,4,0,1617716305,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,4,0,1617716305,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,4,0,1617716305,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  5  2  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,5,2,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  5  2  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,5,2,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  5  2  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,5,2,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  5  2  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,5,2,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+|4,39,1,0,1617716214,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1"
+-'  45  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,45,0,1617715993,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  45  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,45,0,1617715993,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  6  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,6,0,1617715777,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  6  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,6,0,1617715777,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  6  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,6,0,1617715777,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  6  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,6,0,1617715777,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,1,0,1617715775,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+|4,39,1,0,1617715775,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,4,0,1617715359,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  7  2  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,7,2,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+|4,39,1,0,1617715306,"~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1"
 -'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616901915,"~/NERD_tree_1"
+|4,39,4,0,1617715102,"~/NERD_tree_1"
 -'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616901915,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616901902,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616901902,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616901902,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616901902,"~/NERD_tree_1"
+|4,39,4,0,1617715102,"~/NERD_tree_1"
 -'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616901887,"~/NERD_tree_1"
+|4,39,4,0,1617715102,"~/NERD_tree_1"
 -'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616901887,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616901875,"~/NERD_tree_1"
+|4,39,4,0,1617715102,"~/NERD_tree_1"
+-'  26  2  ~/NERD_tree_1
+|4,39,26,2,1617715097,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616901875,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616901875,"~/NERD_tree_1"
+|4,39,1,0,1617715097,"~/NERD_tree_1"
+-'  26  2  ~/NERD_tree_1
+|4,39,26,2,1617715097,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616901875,"~/NERD_tree_1"
--'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616901839,"~/NERD_tree_1"
--'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616901839,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616901776,"~/NERD_tree_1"
+|4,39,1,0,1617715097,"~/NERD_tree_1"
+-'  26  2  ~/NERD_tree_1
+|4,39,26,2,1617715097,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616901776,"~/NERD_tree_1"
--'  21  2  ~/NERD_tree_1
-|4,39,21,2,1616901776,"~/NERD_tree_1"
+|4,39,1,0,1617715097,"~/NERD_tree_1"
+-'  26  2  ~/NERD_tree_1
+|4,39,26,2,1617715097,"~/NERD_tree_1"
 -'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616901776,"~/NERD_tree_1"
--'  1  0  ~/.config/i3/NERD_tree_1
-|4,39,1,0,1616824959,"~/.config/i3/NERD_tree_1"
--'  4  0  ~/.config/i3/NERD_tree_1
-|4,39,4,0,1616824959,"~/.config/i3/NERD_tree_1"
--'  5  2  ~/.config/i3/NERD_tree_1
-|4,39,5,2,1616824947,"~/.config/i3/NERD_tree_1"
--'  1  0  ~/.config/i3/NERD_tree_1
-|4,39,1,0,1616824947,"~/.config/i3/NERD_tree_1"
--'  4  0  ~/.config/i3/NERD_tree_1
-|4,39,4,0,1616824913,"~/.config/i3/NERD_tree_1"
--'  5  2  ~/.config/i3/NERD_tree_1
-|4,39,5,2,1616824907,"~/.config/i3/NERD_tree_1"
--'  1  0  ~/.config/i3/NERD_tree_1
-|4,39,1,0,1616824907,"~/.config/i3/NERD_tree_1"
--'  4  0  ~/.config/i3/NERD_tree_1
-|4,39,4,0,1616824905,"~/.config/i3/NERD_tree_1"
--'  5  2  ~/.config/i3/NERD_tree_1
-|4,39,5,2,1616824884,"~/.config/i3/NERD_tree_1"
--'  1  0  ~/.config/i3/NERD_tree_1
-|4,39,1,0,1616824884,"~/.config/i3/NERD_tree_1"
--'  4  0  ~/.config/i3/NERD_tree_1
-|4,39,4,0,1616824841,"~/.config/i3/NERD_tree_1"
--'  5  2  ~/.config/i3/NERD_tree_1
-|4,39,5,2,1616824803,"~/.config/i3/NERD_tree_1"
--'  1  0  ~/.config/i3/NERD_tree_1
-|4,39,1,0,1616824803,"~/.config/i3/NERD_tree_1"
--'  4  0  ~/.config/i3/NERD_tree_1
-|4,39,4,0,1616824742,"~/.config/i3/NERD_tree_1"
--'  5  2  ~/.config/i3/NERD_tree_1
-|4,39,5,2,1616824728,"~/.config/i3/NERD_tree_1"
--'  1  0  ~/.config/i3/NERD_tree_1
-|4,39,1,0,1616824728,"~/.config/i3/NERD_tree_1"
--'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616824586,"~/NERD_tree_1"
--'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616824586,"~/NERD_tree_1"
--'  19  2  ~/NERD_tree_1
-|4,39,19,2,1616824578,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616824578,"~/NERD_tree_1"
--'  19  2  ~/NERD_tree_1
-|4,39,19,2,1616824578,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616824578,"~/NERD_tree_1"
--'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616824535,"~/NERD_tree_1"
--'  4  0  ~/NERD_tree_1
-|4,39,4,0,1616824535,"~/NERD_tree_1"
--'  19  2  ~/NERD_tree_1
-|4,39,19,2,1616824506,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616824506,"~/NERD_tree_1"
--'  19  2  ~/NERD_tree_1
-|4,39,19,2,1616824506,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1616824506,"~/NERD_tree_1"
--'  4  20  .config/autostart/ibus-daemon.desktop
-|4,39,4,20,1616824497,".config/autostart/ibus-daemon.desktop"
--'  4  20  .config/autostart/ibus-daemon.desktop
-|4,39,4,20,1616824497,".config/autostart/ibus-daemon.desktop"
--'  4  20  .config/autostart/ibus-daemon.desktop
-|4,39,4,20,1616824497,".config/autostart/ibus-daemon.desktop"
--'  4  20  .config/autostart/ibus-daemon.desktop
-|4,39,4,20,1616824497,".config/autostart/ibus-daemon.desktop"
--'  1  0  .config/autostart/ibus-daemon.desktop
-|4,39,1,0,1616824479,".config/autostart/ibus-daemon.desktop"
--'  1  0  .config/autostart/ibus-daemon.desktop
-|4,39,1,0,1616824479,".config/autostart/ibus-daemon.desktop"
--'  1  0  .config/autostart/ibus-daemon.desktop
-|4,39,1,0,1616824479,".config/autostart/ibus-daemon.desktop"
--'  1  0  .config/autostart/ibus-daemon.desktop
-|4,39,1,0,1616824479,".config/autostart/ibus-daemon.desktop"
--'  4  0  /etc/NERD_tree_1
-|4,39,4,0,1616824388,"/etc/NERD_tree_1"
--'  4  0  /etc/NERD_tree_1
-|4,39,4,0,1616824388,"/etc/NERD_tree_1"
--'  4  0  /etc/NERD_tree_1
-|4,39,4,0,1616824388,"/etc/NERD_tree_1"
--'  4  0  /etc/NERD_tree_1
-|4,39,4,0,1616824388,"/etc/NERD_tree_1"
--'  4  0  /etc/NERD_tree_1
-|4,39,4,0,1616824388,"/etc/NERD_tree_1"
--'  4  0  /etc/NERD_tree_1
-|4,39,4,0,1616824388,"/etc/NERD_tree_1"
--'  146  2  /etc/NERD_tree_1
-|4,39,146,2,1616824365,"/etc/NERD_tree_1"
--'  1  0  /etc/NERD_tree_1
-|4,39,1,0,1616824365,"/etc/NERD_tree_1"
--'  146  2  /etc/NERD_tree_1
-|4,39,146,2,1616824365,"/etc/NERD_tree_1"
--'  1  0  /etc/NERD_tree_1
-|4,39,1,0,1616824365,"/etc/NERD_tree_1"
--'  146  2  /etc/NERD_tree_1
-|4,39,146,2,1616824365,"/etc/NERD_tree_1"
--'  1  0  /etc/NERD_tree_1
-|4,39,1,0,1616824365,"/etc/NERD_tree_1"
--'  146  2  /etc/NERD_tree_1
-|4,39,146,2,1616824365,"/etc/NERD_tree_1"
--'  1  0  /etc/NERD_tree_1
-|4,39,1,0,1616824365,"/etc/NERD_tree_1"
--'  146  2  /etc/NERD_tree_1
-|4,39,146,2,1616824365,"/etc/NERD_tree_1"
--'  1  0  /etc/NERD_tree_1
-|4,39,1,0,1616824365,"/etc/NERD_tree_1"
--'  146  2  /etc/NERD_tree_1
-|4,39,146,2,1616824365,"/etc/NERD_tree_1"
--'  1  0  /etc/NERD_tree_1
-|4,39,1,0,1616824365,"/etc/NERD_tree_1"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  8  0  ~/projects/c_programming/test_header/file1.c
-|4,39,8,0,1615468187,"~/projects/c_programming/test_header/file1.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
--'  4  0  ~/projects/c_programming/test_header/file2.c
-|4,39,4,0,1615464987,"~/projects/c_programming/test_header/file2.c"
+|4,39,1,0,1617715097,"~/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1
+|4,39,1,0,1617715036,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1
+|4,39,1,0,1617715036,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1"
+-'  4  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1
+|4,39,4,0,1617715036,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1
+|4,39,1,0,1617715036,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1"
+-'  1  0  ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1
+|4,39,1,0,1617715036,"~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1"
 
 # History of marks within files (newest to oldest):
+
+> ~/go/src/github.com/grpc-go/examples/route_guide/server/server.go
+	*	1617718059	0
+	"	182	0
+
+> ~/go/src/github.com/grpc-go/examples/route_guide/server/NERD_tree_1
+	*	1617718044	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/route_guide.proto
+	*	1617718035	0
+	"	109	0
+
+> ~/go/src/github.com/grpc-go/examples/route_guide/routeguide/NERD_tree_1
+	*	1617718018	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/[Vundle] Installer
+	*	1617718016	0
+	"	20	0
+	.	1	0
+	+	172	0
+	+	156	0
+	+	141	0
+	+	124	0
+	+	107	0
+	+	89	0
+	+	72	0
+	+	54	0
+	+	37	0
+	+	20	0
+	+	1	0
+
+> ~/.vimrc
+	*	1617718003	0
+	"	1	0
+	^	42	0
+	.	40	0
+	+	39	5
+	+	68	0
+	+	137	0
+	+	136	0
+	+	136	1
+	+	136	0
+	+	136	25
+	+	136	0
+	+	137	32
+	+	137	0
+	+	136	26
+	+	137	0
+	+	96	30
+	+	99	0
+	+	136	21
+	+	136	0
+	+	138	102
+	+	138	0
+	+	136	0
+	+	1	0
+	+	3	0
+	+	136	23
+	+	136	33
+	+	136	26
+	+	98	43
+	+	96	30
+	+	1	0
+	+	33	0
+	+	136	13
+	+	78	37
+	+	136	109
+	+	136	0
+	+	101	0
+	+	137	0
+	+	136	0
+	+	134	0
+	+	133	0
+	+	132	0
+	+	131	0
+	+	130	0
+	+	129	0
+	+	127	0
+	+	128	0
+	+	126	0
+	+	125	0
+	+	123	0
+	+	122	0
+	+	121	0
+	+	120	0
+	+	119	0
+	+	118	0
+	+	117	0
+	+	116	0
+	+	115	0
+	+	114	0
+	+	113	0
+	+	112	0
+	+	111	0
+	+	110	0
+	+	109	0
+	+	108	0
+	+	107	0
+	+	106	0
+	+	105	0
+	+	101	0
+	+	102	0
+	+	103	0
+	+	137	0
+	+	40	30
+	+	29	1
+	+	45	0
+	+	41	0
+	+	139	0
+	+	143	26
+	+	146	3
+	+	40	1
+	+	31	1
+	+	144	1
+	+	145	0
+	+	146	0
+	+	142	0
+	+	139	0
+	+	140	34
+	+	141	26
+	+	147	44
+	+	149	0
+	+	147	44
+	+	148	0
+	+	147	44
+	+	140	28
+	+	45	0
+	+	43	25
+	+	41	1
+	+	147	1
+	+	143	1
+	+	142	1
+	+	141	1
+	+	140	1
+	+	44	28
+	+	40	0
+
+> ~/NERD_tree_1
+	*	1617718003	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> routeguide/route_guide.proto
+	*	1617717999	0
+	"	1	0
+
+> ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/main.go
+	*	1617717708	0
+	"	45	0
+	^	45	0
+	.	47	66
+	+	59	3
+	+	61	0
+	+	59	0
+	+	62	0
+	+	46	98
+	+	47	66
+
+> ~/go/src/github.com/grpc-go/examples/helloworld/greeter_server/NERD_tree_1
+	*	1617717431	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/NERD_tree_1
+	*	1617716429	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/go/src/github.com/grpc-go/examples/helloworld/greeter_client/main.go
+	*	1617716415	0
+	"	39	0
+	^	59	2
+	.	60	38
+	+	62	0
+	+	58	60
+	+	59	16
+	+	60	38
+
+> ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/helloworld.proto
+	*	1617715357	0
+	"	30	0
+	^	30	0
+	.	30	0
+	+	28	55
+	+	30	0
+
+> ~/go/src/github.com/grpc-go/examples/helloworld/helloworld/NERD_tree_1
+	*	1617715249	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/hello.go
+	*	1617714752	0
+	"	7	0
+	.	8	0
+	+	14	0
+	+	8	0
+
+> ~/.vim/coc-settings.json
+	*	1617714689	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/greet/greet_server/server.go
+	*	1617506800	0
+	"	23	37
+	^	23	38
+	.	23	37
+	+	25	0
+	+	21	0
+	+	16	21
+	+	16	46
+	+	16	16
+	+	17	11
+	+	17	39
+	+	21	10
+	+	10	52
+	+	10	0
+	+	21	0
+	+	10	0
+	+	10	37
+	+	10	0
+	+	10	6
+	+	10	4
+	+	19	5
+	+	10	0
+	+	19	2
+	+	20	0
+	+	10	52
+	+	1	0
+	+	21	1
+	+	10	0
+	+	9	0
+	+	10	0
+	+	9	52
+	+	21	46
+	+	12	20
+	+	22	36
+	+	23	1
+	+	8	0
+	+	23	37
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/greet/greet_server/NERD_tree_1
+	*	1617506581	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ./greet/greet_server/server.go
+	*	1617506316	0
+	"	7	0
+	.	8	0
+	+	8	0
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/generate.sh
+	*	1617504556	0
+	"	3	42
+	^	3	43
+	.	3	42
+	+	3	42
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/NERD_tree_1
+	*	1617504502	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/greet/greetpb/greet.pb.go
+	*	1617504404	0
+	"	1	0
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/greet/greetpb/NERD_tree_1
+	*	1617504404	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/go/src/github.com/simplesteph/grpc-go-course/greet/greetpb/greet.proto
+	*	1617504375	0
+	"	3	24
+	^	3	25
+	.	3	24
+	+	1	18
+	+	3	28
+	+	4	21
+	+	6	0
+	+	3	24
+
+> ~/.zshrc
+	*	1617503510	0
+	"	101	62
+	^	101	63
+	.	101	62
+	+	111	0
+	+	114	0
+	+	82	0
+	+	109	35
+	+	110	0
+	+	114	0
+	+	114	7
+	+	20	48
+	+	18	24
+	+	20	0
+	+	101	38
+	+	101	37
+	+	101	38
+	+	101	62
+
+> ~/a.go
+	*	1617454079	0
+	"	6	21
+	^	6	22
+	.	7	0
+	+	34	0
+	+	32	1
+	+	27	0
+	+	21	0
+	+	15	0
+	+	13	1
+	+	8	0
+	+	7	0
 
 > ~/.config/i3/config
 	*	1616902460	0
@@ -520,12 +870,6 @@ $
 	+	6	52
 	+	6	0
 
-> ~/NERD_tree_1
-	*	1616902013	0
-	"	4	0
-	.	1	0
-	+	1	0
-
 > ~/ibus-daemon.desktop
 	*	1616824584	0
 	"	4	20
@@ -596,106 +940,6 @@ $
 	*	1615385900	0
 	"	4	0
 	.	1	0
-	+	1	0
-
-> ~/.vimrc
-	*	1615383847	0
-	"	3	0
-	^	29	2
-	.	29	1
-	+	132	1
-	+	132	0
-	+	132	3
-	+	132	0
-	+	133	75
-	+	132	0
-	+	133	0
-	+	132	0
-	+	39	28
-	+	132	0
-	+	39	5
-	+	64	0
-	+	133	0
-	+	132	0
-	+	132	1
-	+	132	0
-	+	132	25
-	+	132	0
-	+	133	32
-	+	133	0
-	+	132	26
-	+	133	0
-	+	92	30
-	+	95	0
-	+	132	21
-	+	132	0
-	+	134	102
-	+	134	0
-	+	132	0
-	+	1	0
-	+	3	0
-	+	132	23
-	+	132	33
-	+	132	26
-	+	94	43
-	+	92	30
-	+	1	0
-	+	33	0
-	+	132	13
-	+	74	37
-	+	132	109
-	+	132	0
-	+	97	0
-	+	133	0
-	+	132	0
-	+	130	0
-	+	129	0
-	+	128	0
-	+	127	0
-	+	126	0
-	+	125	0
-	+	123	0
-	+	124	0
-	+	122	0
-	+	121	0
-	+	119	0
-	+	118	0
-	+	117	0
-	+	116	0
-	+	115	0
-	+	114	0
-	+	113	0
-	+	112	0
-	+	111	0
-	+	110	0
-	+	109	0
-	+	108	0
-	+	107	0
-	+	106	0
-	+	105	0
-	+	104	0
-	+	103	0
-	+	102	0
-	+	101	0
-	+	97	0
-	+	98	0
-	+	99	0
-	+	133	0
-	+	40	30
-	+	29	1
-
-> ~/[Vundle] Installer
-	*	1615383691	0
-	"	18	0
-	.	1	0
-	+	136	0
-	+	120	0
-	+	105	0
-	+	88	0
-	+	71	0
-	+	53	0
-	+	36	0
-	+	18	0
 	+	1	0
 
 > ~/projects/rasp_pico/pico_setup.sh
@@ -830,21 +1074,6 @@ $
 	.	1662	43
 	+	1679	0
 	+	1662	43
-
-> ~/.zshrc
-	*	1615214293	0
-	"	20	0
-	.	20	0
-	+	110	0
-	+	113	0
-	+	82	0
-	+	108	35
-	+	109	0
-	+	113	0
-	+	113	7
-	+	20	48
-	+	18	24
-	+	20	0
 
 > /usr/share/vim/vim82/doc/options.txt
 	*	1615120438	0

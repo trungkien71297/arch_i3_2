@@ -28,7 +28,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree'
 " Plugin 'zxqfl/tabnine-vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'w0rp/ale'
+" Plugin 'w0rp/ale'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
@@ -38,6 +38,10 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'valloric/youcompleteme'
+" Plugin 'fatih/vim-go'
+Plugin 'python-mode/python-mode'
+Plugin 'neoclide/coc.nvim'
+Plugin 'sheerun/vim-polyglot'
 " ---------------End my config------------
 
 "
@@ -132,3 +136,14 @@ let g:airline_symbols.dirty='⚡'
 set noshowmode
 " ---------end config---------
 "
+
+" let g:go_fmt_command = "gofmt"
+" let g:go_auto_type_info = 1
+" let g:go_def_mode='gopls'
+" let g:go_info_mode='gopls'
+" let g:ale_linters = {
+"  \ 'go': ['gopls'],
+"  \}
+" au filetype go inoremap <buffer> . .<C-x><C-o>
+
+
